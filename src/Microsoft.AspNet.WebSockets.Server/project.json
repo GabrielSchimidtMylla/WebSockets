@@ -1,17 +1,20 @@
 {
-    "version": "1.0.0-*",
-    "description": "ASP.NET 5 web socket middleware for use on top of opaque servers.",
-    "dependencies": {
-        "Microsoft.AspNet.Http": "1.0.0-*",
-        "Microsoft.AspNet.Http.Interfaces": { "version": "1.0.0-*", "type": "build" },
-        "Microsoft.AspNet.WebSockets.Protocol": "1.0.0-*"
+  "version": "1.0.0-beta3",
+  "description": "ASP.NET 5 web socket middleware for use on top of opaque servers.",
+  "dependencies": {
+    "Microsoft.AspNet.Http": "1.0.0-beta3",
+    "Microsoft.AspNet.Http.Interfaces": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     },
-    "frameworks": {
-        "aspnet50": { },
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Runtime": "4.0.20-beta-*"
-            }
-        }
+    "Microsoft.AspNet.WebSockets.Protocol": "1.0.0-beta3"
+  },
+  "frameworks": {
+    "aspnet50": {},
+    "aspnetcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.20-beta-22605"
+      }
     }
+  }
 }
